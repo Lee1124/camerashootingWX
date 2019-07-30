@@ -1,0 +1,284 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		/* 订单页面 */
+		{
+			"path": "pages/login/validation/validation",
+			"style": {
+				"navigationStyle": "custom"
+			}
+		},
+		
+		{
+			"path": "pages/dingdan/pages/addOrder-hunQingKF/addOrder-hunQingKF", //添加订单-婚礼客户信息
+			"style": {}
+		},
+		{
+			"path": "pages/dingdan/pages/addOrder-shangYeKF/addOrder-shangYeKF", //添加订单-商业客户信息
+			"style": {}
+		},
+		
+		{
+			"path": "pages/dingdan/pages/addOrder/addOrder", //添加订单-添加订单首页
+			"style": {}
+		},
+		
+
+		{
+			"path": "pages/login/login", //登录页面
+			"style": {
+				"navigationStyle": "custom",
+				"navigationBarTextStyle": "white"
+			}
+		},
+		{
+			"path": "pages/login/power/power", //授权页面
+			"style": {
+				"navigationStyle": "custom"
+			}
+		},
+
+
+		{
+			"path": "pages/dingdan/index", //订单首页
+			"style": {
+				"navigationStyle": "custom",
+				"navigationBarTextStyle": "black",
+				"enablePullDownRefresh": false
+			}
+		},
+
+		{
+			"path": "pages/dingdan/pages/orderDetailPage/orderDetailPage", //详情
+			"style": {}
+		},
+
+
+
+		{
+			"path": "pages/dingdan/pages/sendDisc/sendDisc", //邮寄碟片
+			"style": {}
+		},
+
+
+		{
+			"path": "pages/dingdan/pages/ziliaoliucun/ziliaoliucun", //资料留存
+			"style": {}
+		},
+
+
+		{
+			"path": "pages/dingdan/pages/shebeilingqu/shebeilingqu", //设备领取
+			"style": {}
+		},
+
+
+		{
+			"path": "pages/dingdan/pages/huikuibiao/huikuibiao", //回馈表
+			"style": {}
+		},
+
+		{
+			"path": "pages/dingdan/pages/yixiangbiao/yixiangbiao", //意向表
+			"style": {}
+		},
+		{
+			"path": "pages/dingdan/pages/addPrice/addPrice", //添加金额
+			"style": {}
+		},
+
+		{
+			"path": "pages/dingdan/pages/editPerson/editPerson", //编辑人员
+			"style": {}
+		},
+
+
+
+		{
+			"path": "pages/gongzuotai/index",
+			"style": {
+				"navigationStyle": "custom",
+				"navigationBarTextStyle": "white"
+			}
+		},
+		{
+			"path": "pages/dingdan/pages/addSuccessPage/addSuccessPage", //添加订单成功提示
+			"style": {}
+		},
+
+		{
+			"path": "pages/dingdan/pages/addHotel/addHotel", //添加订单-添加酒店
+			"style": {}
+		},
+
+		{
+			"path": "pages/dingdan/pages/addPerson/addPerson", //添加人员
+			"style": {}
+		},
+
+
+
+		{
+			"path": "pages/dingdan/pages/addHunQing/addHunQing", //添加订单-添加婚庆公司
+			"style": {}
+		},
+
+
+		// 工作台页面集合
+		{
+			"path": "pages/gongzuotai/MenuPages/13",
+			"style": {
+				"navigationBarTitleText": "我的报账"
+			}
+		},
+		{
+			"path": "pages/gongzuotai/MenuPages/1027",
+			"style": {
+				"navigationBarTitleText": "我的交款"
+			}
+		},
+		{
+			"path": "pages/gongzuotai/MenuPages/1029",
+			"style": {
+				"navigationBarTitleText": "交款审批"
+			}
+		},
+		{
+			"path": "pages/gongzuotai/MenuPages/14",
+			"style": {
+				"navigationBarTitleText": "报账审批"
+			}
+		},
+		{
+			"path": "pages/gongzuotai/MenuPages/15",
+			"style": {
+				"navigationBarTitleText": "报账支付"
+			}
+		},
+		{
+			"path": "pages/gongzuotai/MenuPages/1028",
+			"style": {
+				"navigationBarTitleText": "出纳账目"
+			}
+		},
+		{
+			"path": "pages/gongzuotai/MenuPages/16",
+			"style": {
+				"navigationBarTitleText": "账号转存"
+			}
+		},
+		{
+			"path": "pages/gongzuotai/MenuPages/8",
+			"style": {
+				"navigationBarTitleText": "设备"
+			}
+		},
+
+		// {
+		// 	"path":"pages/gongzuotai/1-page/Add-Baozhang"		,//添加报账
+		// 	"style": {
+		// 		"navigationBarTitleText": "添加报账"
+		// 	}
+		// },
+		{
+			"path": "pages/gongzuotai/1-page/Add-Baozhang", //添加报账
+			"style": {
+				"navigationBarTitleText": "添加报账"
+			}
+		},
+		{
+			"path": "pages/gongzuotai/1-page/Add-object", //添加支付对象
+			"style": {
+				"navigationBarTitleText": "添加支付对象"
+			}
+		},
+		{
+			"path": "pages/gongzuotai/2-page/Edit-JiaoKuan", //编辑交款
+			"style": {
+				"navigationBarTitleText": "编辑交款"
+			}
+		},
+		{
+			"path": "pages/gongzuotai/3-page/Details-JiaoKuan", //编辑交款审批
+			"style": {
+				"navigationBarTitleText": "编辑交款审批"
+			}
+		},
+		{
+			"path": "pages/gongzuotai/4-page/Details_of_Account", //报账审批
+			"style": {
+				"navigationBarTitleText": "报账审批"
+			}
+		},
+		{
+			"path": "pages/gongzuotai/5-page/Add-confirm-ZhiFu", //添加报账支付
+			"style": {
+				"navigationBarTitleText": "添加报账支付"
+			}
+		},
+		{
+			"path": "pages/gongzuotai/5-page/Details-ZhiFu", //编辑报账支付
+			"style": {
+				"navigationBarTitleText": "编辑报账支付"
+			}
+		},
+		{
+			"path": "pages/gongzuotai/6-page/Details_ChuNa", //编辑出纳账目
+			"style": {
+				"navigationBarTitleText": "编辑出纳账目"
+			}
+		},
+		/*设置-个人中心页面*/
+		{
+			"path": "pages/Shezhi/index"
+		},
+		/*设置-修改密码页面*/
+		{
+			"path": "pages/Shezhi/changePassWord/changePassWord",
+			"style": {}
+		},
+		/*设置-更换手机号页面*/
+		{
+			"path": "pages/Shezhi/replacePhone/replacePhone",
+			"style": {}
+		}
+
+
+
+
+
+
+
+	],
+
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#FFFFFF",
+		"backgroundColor": "#FFFFFF",
+		"enablePullDownRefresh": false
+	},
+	"tabBar": {
+		"color": "#7A7E83",
+		"selectedColor": "#007AFF",
+		"borderStyle": "black",
+		"backgroundColor": "#FFFFFF",
+		"list": [{
+				"pagePath": "pages/dingdan/index",
+				"text": "订单",
+				"iconPath": "static/img/TabBar-iocn/dingdan.png",
+				"selectedIconPath": "static/img/TabBar-iocn/selectdingdan.png"
+			},
+			{
+				"pagePath": "pages/gongzuotai/index",
+				"text": "工作台",
+				"iconPath": "static/img/TabBar-iocn/gongzuotai.png",
+				"selectedIconPath": "static/img/TabBar-iocn/selectgongzuotai.png"
+			}, {
+				"pagePath": "pages/Shezhi/index",
+				"text": "设置",
+				"iconPath": "static/img/TabBar-iocn/shezhi.png",
+				"selectedIconPath": "static/img/TabBar-iocn/selectshezhi.png"
+			}
+		]
+	}
+}
